@@ -29,4 +29,4 @@ jobs:
 
       - name: Run Trivy Security Scan
         run: |
-          trivy image --exit-code 1 --severity HIGH,CRITICAL cotalla/my-docker-app:latest'
+          trivy image --exit-code 1 --severity HIGH,CRITICAL cotalla/my-docker-app:latest
